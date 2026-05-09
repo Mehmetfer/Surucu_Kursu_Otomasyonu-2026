@@ -25,7 +25,8 @@ Bu proje, sürücü kursu operasyonlarını tek bir uygulama üzerinden daha dü
 2. Çözümü Visual Studio ile aç (`Kolera_Mtsk.slnx`).
 3. Gerekli NuGet paketlerini geri yükle.
 4. Veritabanı bağlantı ayarlarını yapılandır.
-5. Projeyi derleyip çalıştır.
+5. Projeyi derleyip çalıştır.<img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/9ebc041b-a210-4873-ac0b-8693d85540f8" />
+
 
 ## Not
 
@@ -37,7 +38,8 @@ Proje aktif geliştirme aşamasındadır. Dokümantasyon zamanla genişletilecek
 <img width="1345" height="821" alt="donemler" src="https://github.com/user-attachments/assets/1f8f29dd-08c6-4fa6-be58-93876af9bbb9" />
 <img width="1340" height="818" alt="direksiyonsinav" src="https://github.com/user-attachments/assets/812d6c50-3a6f-43bb-a19b-e9a71efc44b4" />
 <img width="839" height="510" alt="bosverıtabani" src="https://github.com/user-attachments/assets/7bce7f7e-8d36-4c29-9cf0-bd6669051daa" />
-<img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/0a822a95-7ab6-4055-be71-75d2122e8171" />
+<img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/8e418c54-ea07-42b9-afc9-11df3fe3def5" />
+
 <img width="1340" height="820" alt="araclar" src="https://github.com/user-attachments/assets/140ac020-a6ed-4cc7-897c-4b40258c13f5" />
 <img width="1338" height="820" alt="aktarimsimi" src="https://github.com/user-attachments/assets/5c8fb4c2-4c41-4d0d-ba70-457af76908e5" />
 <img width="1338" height="816" alt="yenikayit" src="https://github.com/user-attachments/assets/1d627c40-744b-454e-b399-e899ddbd1f45" />
