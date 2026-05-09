@@ -1,0 +1,9 @@
+SAYI:
+KONU:
+TARIH:
+
+ILGILI MAKAMA,
+
+Bu bir ornek ust yazi sablonudur. Gerekli alanlari duzenleyip kullanabilirsiniz.
+
+Saygilarimizla.
