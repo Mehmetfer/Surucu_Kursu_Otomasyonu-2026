@@ -25,7 +25,7 @@ Bu proje, sürücü kursu operasyonlarını tek bir uygulama üzerinden daha dü
 2. Çözümü Visual Studio ile aç (`Kolera_Mtsk.slnx`).
 3. Gerekli NuGet paketlerini geri yükle.
 4. Veritabanı bağlantı ayarlarını yapılandır.
-5. Projeyi derleyip çalıştır.<img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/9ebc041b-a210-4873-ac0b-8693d85540f8" />
+5. Projeyi derleyip çalıştır.
 
 
 ## Not
@@ -39,7 +39,7 @@ Proje aktif geliştirme aşamasındadır. Dokümantasyon zamanla genişletilecek
 <img width="1340" height="818" alt="direksiyonsinav" src="https://github.com/user-attachments/assets/812d6c50-3a6f-43bb-a19b-e9a71efc44b4" />
 <img width="839" height="510" alt="bosverıtabani" src="https://github.com/user-attachments/assets/7bce7f7e-8d36-4c29-9cf0-bd6669051daa" />
 <img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/8e418c54-ea07-42b9-afc9-11df3fe3def5" />
-
+<img width="1345" height="826" alt="arama" src="https://github.com/user-attachments/assets/9ebc041b-a210-4873-ac0b-8693d85540f8" />
 <img width="1340" height="820" alt="araclar" src="https://github.com/user-attachments/assets/140ac020-a6ed-4cc7-897c-4b40258c13f5" />
 <img width="1338" height="820" alt="aktarimsimi" src="https://github.com/user-attachments/assets/5c8fb4c2-4c41-4d0d-ba70-457af76908e5" />
 <img width="1338" height="816" alt="yenikayit" src="https://github.com/user-attachments/assets/1d627c40-744b-454e-b399-e899ddbd1f45" />
@@ -48,6 +48,7 @@ Proje aktif geliştirme aşamasındadır. Dokümantasyon zamanla genişletilecek
 <img width="1347" height="823" alt="ustyazi" src="https://github.com/user-attachments/assets/e7a30ddd-6481-402c-a85a-f40663185648" />
 <img width="1920" height="1016" alt="sinavrapor" src="https://github.com/user-attachments/assets/7468533e-d844-4e4a-82d3-7ea08155eb14" />
 <img width="1335" height="819" alt="sertifikatanimi" src="https://github.com/user-attachments/assets/41e2a95d-8d2c-4b0a-90b7-d545b9165f29" />
-<img width="1345" height="831" alt="personel" src="https://github.com/user-attachments/assets/8195056c-939d-4dbf-8ac3-3270b573f7de" />
+
 <img width="1341" height="823" alt="parametre" src="https://github.com/user-attachments/assets/8b43d018-4031-4717-b101-841ddc70387c" />
 <img width="1343" height="815" alt="kullanicibilgi" src="https://github.com/user-attachments/assets/faa2bb17-7ec9-4e7b-83a1-036b4c4fea55" />
+<img width="1345" height="831" alt="personel" src="https://github.com/user-attachments/assets/74ab1671-822e-4f9e-99da-df6f3940cece" />
