@@ -1,0 +1,101 @@
+KOLERA_MTSK KULLANICI KLAVUZU
+=============================
+
+Bu dokuman, projedeki temel kullanim adimlarini ve uygulanan is kurallarini ozetler.
+
+1) GIRIS VE OTURUM
+------------------
+- Programa kullanici adi ve sifre ile giris yapilir.
+- Giris yapan kullanici adi uygulama oturumunda saklanir (AppSession.CurrentUserName).
+- Bazi sayfalardaki yetki kontrolleri bu aktif kullanici bilgisine gore calisir.
+
+2) LISANS KURALLARI
+-------------------
+- Lisans durumu: active, demo, passive.
+- active: tum ozellikler kullanilabilir.
+- demo: program calisir, internet yoksa sinirli sayida yazma islemine izin verilir.
+- passive: veritabani yazma islemleri engellenir.
+- Program internet yokken calismaya devam eder, ancak offline yazma hakki sinirlidir.
+- Offline yazma limiti: 10 kayit.
+- Limit dolunca kullaniciya uyari verilir, yeni yazma islemi engellenir.
+- Son lisans kontrol zamani uygulamada goruntulenir.
+- Lisans sorgusunda lisans no ve musteri no bilgileri web tarafina gonderilir.
+
+3) PARAMETRELER EKRANI
+----------------------
+- Login ekranindaki Btn_Parametre butonu ile acilir.
+- Sekmeler:
+  * Parametreler
+  * Kullanici Bilgileri
+  * Sertifika Siniflari
+- Parametreler sekmesi, PARAM_KURSBILGILERI tablosundaki alanlari yukler/kaydeder.
+- Musteri No alani bu ekranda gorunmez (istenilen kurala gore gizlidir).
+
+4) KULLANICI BILGILERI - KULLANICI TANIMLARI
+---------------------------------------------
+- Kullanici listesi KULLANICI tablosundan yuklenir.
+- Secili kullanicinin adi ve sabit yetki listesi sag panelde goruntulenir.
+- Ekleme/Guncelleme/Silme islemleri vardir:
+  * Yeni
+  * Kaydet
+  * Sil
+
+Yetki kurallari:
+- Sadece ADMIN rolundeki kullanicilar kullanici kaydi ekleyebilir, guncelleyebilir, silebilir.
+- ADMIN olmayan kullanicilarda bu alanlar ve butonlar pasif durumdadir.
+- Veritabaninda en az 1 adet ADMIN kalmak zorundadir.
+- Son ADMIN kullanici silinemez.
+- Son ADMIN kullanicinin yetkisi ADMIN'den baska bir role dusurulemez.
+
+Not:
+- KULLANICI tablosunda kolon adlari farkli olabilir. Uygulama asagidaki kolonlari dinamik eslestirir:
+  * Kullanici adi: KULLANICI_ADI / KADI / KULLANICI
+  * Sifre: SIFRE / PAROLA / KULLANICI_SIFRE
+  * Yetki: YETKI / ROL / YETKISI
+  * Kayit anahtari: ID / KOD
+
+5) KULLANICI BILGILERI - MEBBIS SIFRE TANIMLAMA
+------------------------------------------------
+- Sol menuden Mebbis Sifre Tanimlama acilir.
+- 3 adet MEBBIS kullanicisi (kullanici adi, sifre, kullanim yetkisi) tanimlanir.
+- Veriler PARAM_GENEL_PARAMETRELER tablosundan okunur ve kaydedilir.
+- Kullanim Yetkisi listesi KULLANICI tablosundan doldurulur.
+- Sifre alanlarinda "goster/gizle" butonu ile sifre gorunurlugu degistirilebilir.
+- MEBBIS loginlerinde, programa giris yapan kullaniciya atanmis MEBBIS bilgisi kullanilir.
+
+6) KULLANICI BILGILERI - LOG KAYITLARI
+--------------------------------------
+- Su an taslak durumdadir.
+- Ekranda butonlar bulunur (listeleme/temizleme/excel gibi), detaylar daha sonra genisletilebilir.
+
+7) SERTIFIKA SINIFLARI
+----------------------
+- Sertifika siniflari sekmesinde listeleme alani bulunur.
+- Veri kaynagi olarak PARAM_SINIFLAR, SERTIFIKA_SINIFLARI veya SINIFLAR tablolari kullanilabilir.
+- Yeni/Kaydet/Sil/Kapat aksiyonlari icin butonlar mevcuttur.
+
+8) YEDEKLEME
+------------
+- Hemen Yedek Al islemi veritabani yedegini Kolera klasorune alir.
+- Islem sonunda ilgili klasor acilir.
+- Eski yedekleri temizleme mantigi tanimli ise otomatik devreye girer.
+
+9) WEB LISANS IZLEME (PHP TARAFI)
+---------------------------------
+- lisans.php cagrisinda kullanim logu tutulur.
+- Kayit edilen bilgiler:
+  * lisans_no
+  * musteri_no
+  * IP adresi
+  * user-agent
+  * tarih/saat
+- lisans_admin.php ekraninda lisanslar ve kullanim kayitlari izlenebilir.
+
+10) HATA VE KISITLAR
+--------------------
+- Veritabani baglantisi yoksa ekranlar mesaj ile hata verir.
+- Yetkisiz kullanici kritik kayit islemi yapamaz.
+- Lisans durumu passive ise yazma islemleri engellenir.
+- Offline yazma limiti asildiginda kayit islemi durdurulur.
+
+Bu kilavuz proje gelistikce guncellenmelidir.

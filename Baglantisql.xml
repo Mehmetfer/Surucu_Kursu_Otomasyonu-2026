@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerAyarModel>
+	<Sunucu>METRO-SURUCUKUR\SQLEXPRESS</Sunucu>
+	<BaglantiTuru>SqlServer</BaglantiTuru>
+	<KullaniciAdi>sa</KullaniciAdi>
+	<Parola>1597531</Parola>
+	<VeritabaniAdi>SON_TESTING</VeritabaniAdi>
+</ServerAyarModel>

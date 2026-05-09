@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerAyarModel>
+  <Sunucu>(LocalDB)\MSSQLLocalDB</Sunucu>
+  <BaglantiTuru>AttachDbFilename</BaglantiTuru>
+  <KullaniciAdi></KullaniciAdi>
+  <Parola></Parola>
+  <VeritabaniAdi>Surucu_Kursu_Data.mdf</VeritabaniAdi>
+</ServerAyarModel>
